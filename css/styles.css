@@ -7,12 +7,36 @@ body {
     font-family: 'Roboto', sans-serif;
     
 }
-/* Стили для шапки */
-.page-header {
-    
-
+/* Нормолайз */
+h1,h2,h3,h4,h5,h6 {
+    margin: 0px 0px;
 }
 
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+/* Стили для шапки */
+.page-header {
+        
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
 /* Стиль Логотипа*/
 
 .logo {
@@ -23,7 +47,7 @@ body {
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-        text-decoration: none;
+        
 
 }
 .footer-logo {
@@ -34,7 +58,7 @@ body {
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-        text-decoration: none;
+        
 
 }
 .logo-color {
@@ -42,7 +66,7 @@ body {
 }
 /* Стили навигации */
 .site-nav {
-    list-style-type: none;
+    
     
 }
 .site-nav .link {
@@ -51,7 +75,7 @@ body {
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-        text-decoration: none;
+        
         color: #212121;
 }
 
@@ -60,7 +84,7 @@ body {
     color: #2196F3;
 }
 .auth-nav {
-    list-style-type: none;
+    
     
 }
 .auth-nav .link {
@@ -70,7 +94,7 @@ body {
         font-size: 14px;
         line-height: 1.15;
         letter-spacing: 0.02em;
-        text-decoration: none;
+        
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -109,7 +133,7 @@ body {
 
 /* Стили для наших привилегии */
 .benefits {
-    list-style-type: none;
+    
 }
 .benefits .titel {
     color: var(--main-color);
@@ -131,7 +155,7 @@ body {
 
 /* Стили "Чем занимаемся" */
 .work {
-    list-style-type: none;
+    
 }
 .work .titel {
     color: var(--main-color);
@@ -146,9 +170,9 @@ body {
 
 .team {
     background-color: #F5F4FA;
-    list-style-type: none;
+    
     /* Возможно нужно убрать  */
-    text-align: center;
+    /* text-align: center; */
        
 }
 
@@ -156,7 +180,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.03em;
 
 }
@@ -167,7 +191,7 @@ body {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.18;
-        text-align: center;
+        /* text-align: center; */
         letter-spacing: 0.03em;
 }
 .team .article {
@@ -177,7 +201,7 @@ body {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.18;
-        text-align: center;
+        /* text-align: center; */
         letter-spacing: 0.03em;
 }
 
@@ -201,13 +225,13 @@ body {
     line-height: 1.71px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
+    
 }
 
 /* Портфолио */
 /* Кнопки портфолио */
 .portfolio-button-list {
-    list-style-type: none;
+    
 }
 .portfolio-button {
     background-color: #fff;
@@ -231,10 +255,10 @@ body {
     color: #E5E5E5;
 }
 .portfolio-list {
-    list-style-type: none;
+    
 }
 .portfolio-link {
-    text-decoration: none;
+    
 }
 
 .portfolio-list-title {
