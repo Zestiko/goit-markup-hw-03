@@ -1,0 +1,253 @@
+:root {
+    --main-color: #212121;
+    --secondary-color: #757575;
+}
+body {
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    
+}
+/* Стили для шапки */
+.page-header {
+    
+
+}
+
+/* Стиль Логотипа*/
+
+.logo {
+    color: #000;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+
+}
+.footer-logo {
+    color: #fff;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+
+}
+.logo-color {
+    color: #2196F3;
+}
+/* Стили навигации */
+.site-nav {
+    list-style-type: none;
+    
+}
+.site-nav .link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+.auth-nav {
+    list-style-type: none;
+    
+}
+.auth-nav .link {
+    color: var(--secondary-color);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.15;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: #2196F3;
+}
+
+/* Стили для хиро */
+.hero {
+    background-color: #2F303A;
+}
+.hero-title  {
+    color: #000;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;  
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button {
+    background-color: #2196F3;
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* Стили для наших привилегии */
+.benefits {
+    list-style-type: none;
+}
+.benefits .titel {
+    color: var(--main-color);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.15;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        
+}
+.benefits .article {
+    color: var(--secondary-color);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;    
+        letter-spacing: 0.03em;
+}
+
+/* Стили "Чем занимаемся" */
+.work {
+    list-style-type: none;
+}
+.work .titel {
+    color: var(--main-color);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+/*  Стили Наша команда */
+
+.team {
+    background-color: #F5F4FA;
+    list-style-type: none;
+    /* Возможно нужно убрать  */
+    text-align: center;
+       
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+.team-name {
+    color: var(--main-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.team .article {
+    color: var(--secondary-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+/* Стили для футера */
+
+.footer {
+    background-color: #2F303A;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+}
+
+.footer .article {
+    color: #fff;
+}
+.footer .link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+/* Портфолио */
+/* Кнопки портфолио */
+.portfolio-button-list {
+    list-style-type: none;
+}
+.portfolio-button {
+    background-color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+    
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+/* Список робот */
+.hide-title {
+    color: #E5E5E5;
+}
+.portfolio-list {
+    list-style-type: none;
+}
+.portfolio-link {
+    text-decoration: none;
+}
+
+.portfolio-list-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.portfolio-list .article {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
