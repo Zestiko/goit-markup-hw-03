@@ -32,8 +32,8 @@ p {
 
 .nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+   
 }
 
 .container {
@@ -46,6 +46,9 @@ p {
 /* Стиль Логотипа*/
 
 .logo {
+    display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
     color: #000;
     font-family: 'Raleway';
         font-style: normal;
@@ -72,10 +75,25 @@ p {
 }
 /* Стили навигации */
 .site-nav {
-    
+    display: flex;
+    margin-left: 95px;
+      
+}
+
+.site-nav .item {
     
 }
+
+.site-nav .item:not(:last-child){
+    margin-right: 50px;
+}
+
 .site-nav .link {
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    
+
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -85,16 +103,28 @@ p {
         color: #212121;
 }
 
+
+
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: #2196F3;
 }
 .auth-nav {
-    
+    display: flex;  
+    margin-left: auto;
     
 }
+
+.auth-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+
 .auth-nav .link {
-    color: var(--secondary-color);
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+        color: var(--secondary-color);
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
