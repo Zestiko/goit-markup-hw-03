@@ -44,12 +44,15 @@ address {
 }
 /* Стили для шапки */
 .page-header {
+    border-bottom: 1px solid #ECECEC;
         
 }
 
 .nav {
     display: flex;
     align-items: center;
+
+    
    
 }
 
